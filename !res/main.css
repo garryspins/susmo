@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body {
-    /* margin:-2%; */
-    /* padding:-2%; */
+    margin:-2%;
+    padding:-2%;
     
-    margin:0;
-    padding:0;
+    /* margin:0; */
+    /* padding:0; */
 
     background-color: rgb(20, 21, 29);
     font-family: "Poppins";
@@ -13,12 +13,12 @@ body {
 
     overflow-x:hidden;
 
-    /* transform: rotate(-2deg); */
+    transform: rotate(-2deg);
 }
 
 .header {    
     background-color: rgb(255, 0, 128);
-    /* padding-top:4%; */
+    padding-top:4%;
 }
 
 .header_slant {
