@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    /* margin:-2%; */
+    /* padding:-2%; */
+    
+    margin:0;
+    padding:0;
+
+    background-color: rgb(20, 21, 29);
+    font-family: "Poppins";
+    color: #FFF;
+
+    overflow-x:hidden;
+
+    /* transform: rotate(-2deg); */
+}
+
+.header {    
+    background-color: rgb(255, 0, 128);
+    /* padding-top:4%; */
+}
+
+.header_slant {
+    fill: rgb(255, 0, 128);
+}
+
+.header > .topbar {
+    display: flex;
+    padding-right: 80px;
+    height:60px;
+    font-size:40px;
+}
+
+.header > .topbar > .logo {
+    height: 40px;
+
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: auto;
+    margin-left: 80px;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.header > .topbar > .logo > img {
+    height: 40px;
+    float:left;
+    margin-right:10px;
+    border-radius: 5px;
+}
+
+.header > .topbar > .item {
+    float:right;
+    line-height: 60px;
+    margin-left: 10px;
+    font-size:20px;
+}
+
+.header > .content > .container {
+    display: inline-block;
+    background-color:rgb(255, 38, 147);
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translatex(-50%);
+    width:50%;
+    box-shadow: 0px 0px 5px #555;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+    margin-top:20px;
+}
+
+.header > .content > .container > .inner {
+    font-size: 30px;
+    font-weight: 300;
+    color:#ddd;
+}
+
+.main {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.main > .stats {
+    margin-top:60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main > .stats > .stat {
+    padding:20px;
+    padding-left:80px;
+    padding-right:80px;
+    background-color:rgb(31, 32, 41);
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
+    min-width:20%;
+    margin-bottom:30px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.main > .stats > .stat > .head {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.main > .join {
+    display: block;
+    color:rgb(30, 110, 210);
+    background-color: rgb(28, 54, 77);
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.main > .box {
+    margin-top: 60px;
+}
+
+.main > .box > .head {
+    color:rgb(27, 117, 213);
+    font-size:30px;
+    text-align: center;
+}
+
+.main > .box > .head > .one {
+    color:#FFF;
+    font-size:50px;
+}
+
+.main > .box > .flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main > .box > .flex > .item {
+    max-width: 30%;
+    text-align: center;
+    background-color: rgb(31, 32, 41);
+    border-radius: 15px;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.main > .box > .flex > .item > img {
+    width:100px;
+    border-radius: 50%;
+}
+
+.main > .box > .flex > .item > .head {
+    font-size:50px;
+    font-weight: 1000;
+}
+
+.main > .box > .flex > .item > .desc {
+    color:#ddd;
+}
