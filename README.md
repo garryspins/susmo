@@ -9,3 +9,7 @@ drag into folder and start wamp or xammp or mamp or somethin
 
 # creDit
 me :)
+
+# pull requests
+
+PULL REQUESTS MUST BE
